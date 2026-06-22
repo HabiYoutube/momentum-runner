@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "momentumrunner",
+  "version": "${version}",
+  "name": "Momentum Runner",
+  "description": "A client-side mod that adds momentum-based movement mechanics inspired by speedrunning",
+  "authors": [
+    "HabiYoutube"
+  ],
+  "contact": {
+    "homepage": "https://github.com/HabiYoutube/momentum-runner",
+    "sources": "https://github.com/HabiYoutube/momentum-runner"
+  },
+  "license": "MIT",
+  "icon": "assets/momentumrunner/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.habioutube.momentumrunner.MomentumRunner"
+    ]
+  },
+  "mixins": [
+    "momentumrunner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
